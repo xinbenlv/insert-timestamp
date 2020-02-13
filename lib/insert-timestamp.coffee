@@ -10,7 +10,7 @@ module.exports = InsertTimestamp =
     atom.commands.add 'atom-workspace', 'insert-timestamp:tunix': => @tunix()
     atom.commands.add 'atom-workspace', 'insert-timestamp:tpython': => @tpython()
     atom.commands.add 'atom-workspace', 'insert-timestamp:DateT': => @DateT()
-    atom.commands.add 'atom-workspace', 'insert-timestamp:ISO8601': => @tISO8601()
+    atom.commands.add 'atom-workspace', 'insert-timestamp:tISO8601': => @tISO8601()
 
 
   DateT: ->
